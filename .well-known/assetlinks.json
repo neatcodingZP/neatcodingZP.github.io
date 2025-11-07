@@ -1,0 +1,26 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ftcube.eqa_mobile_trading_platform",
+      "sha256_cert_fingerprints": [
+        "6D:64:B6:BD:44:D3:60:3C:6D:89:09:86:86:D6:ED:6F:06:4A:1E:37:44:5E:F3:E2:8C:17:21:44:71:E6:7A:F9"
+      ]
+    }
+  },
+{
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.mobile.trading.platform",
+      "sha256_cert_fingerprints": [
+        "5F:40:49:6E:EE:86:27:27:75:0E:AB:F8:6F:BC:27:17:D0:1E:84:16:92:98:33:F2:F4:70:85:0D:50:3F:DE:CD"
+      ]
+    }
+  }	
+]
