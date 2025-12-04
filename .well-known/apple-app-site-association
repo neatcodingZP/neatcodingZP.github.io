@@ -1,27 +1,30 @@
 {
   "applinks": {
-    "apps": [],
     "details": [
       {
-        "appIDs": [
-          "29RKAAG3A3.com.ftcube.eqaMobileTradingPlatform",
-	"29RKAAG3A3.dev.mobile.trading.platform"
-        ],
+        "appID": "29RKAAG3A3.com.ftcube.eqaMobileTradingPlatform",
         "paths": [
-          "*"
-        ],
-        "components": [
-          {
-            "/": "/*"
-          }
+	  "/identity/*",
+	  "/identity/??*",
+          "/authorization/*",
+          "/authorization/??*"
+        ]
+      },
+      {
+        "appID": "29RKAAG3A3.dev.mobile.trading.platform",
+        "paths": [
+          "/identity/*",
+	  "/identity/??*",
+          "/authorization/*",
+          "/authorization/??*"
         ]
       }
     ]
   },
   "webcredentials": {
     "apps": [
-        "29RKAAG3A3.com.ftcube.eqaMobileTradingPlatform",
-	"29RKAAG3A3.dev.mobile.trading.platform"
+      "29RKAAG3A3.com.ftcube.eqaMobileTradingPlatform",
+      "29RKAAG3A3.dev.mobile.trading.platform"
     ]
   }
 }
